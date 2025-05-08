@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diksha Singh</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5b63586a42.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <h1><span>D</span>iksha</h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#portfolio">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Senior QA Engineer</p>
+                <h1>Hello, I'm <span> Diksha </span> <br> Singh from Pune</h1>
+                <a href="DikshaS_CV (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row"> 
+                <div class="about-col-1">
+                    <img src="images/diksha.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>
+                        Results-driven Senior Software QA Engineer with 5+ years of experience, including 4 years in manual,database
+                        testing and accessibility testing and 3+ years in ETL testing. Proven expertise in validating data pipelines, executing
+                        complex SQL queries, and ensuring high-quality software releases. Strong background in agile methodologies,
+                        accessibility compliance (WCAG 2.0/2.1), and collaborative delivery of scalable and secure solutions. Known for
+                        driving quality through meticulous planning, execution, and cross-functional coordination.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul class="skill">
+                            <!-- <li><span>Python Developer</span><br>Designing Software application</li>
+                            <li><span>Web Developer</span><br>Designing Web pages for application</li>
+                            <li><span>Django Developer</span><br>Designing Full Stack Application</li> -->
+                            <li>Manual Testing, Regression, Functional, ETL, Exploratory, Accessibility, Database</li>
+                            <li>Automation Testing</li>
+                            <li>Selenium</li>
+                            <li>Java</li>
+                            <li>TestNG</li>
+                            <li>Agile Tools: JIRA, Confluence, Asana (Scrum, Sprint Planning, Retrospectives)</li>
+                            <li>Database testing</li>
+                            <li>BDD Framework</li>
+                            <li>API testing using Postman</li>
+                            <li>SQL</li>
+                            <li>Defect Management: Test Plans, Test Cases, Bug Tracking & Reporting,STLC,SDLC</li>
+                            <li>ETL testing</li>
+                            <li>Microsoft Fabric (Data Pipelines, Notebooks, Lakehouse), Talend </li>
+                            <li>Data Validation: SQL, Delta Tables, Data Warehouse, OneLake, Lakehouse Architecture</li>
+                            <li>Accessibility Testing: WCAG 2.0/2.1, Axe, Wave, CCA, Accessibility Insights,NVDA,JAWS,talkback</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Senior QA Engineer (April 2021 – Present )</span><br>I am working in <span> Arcgate Technologies</span>  as a Senior QA Engineer. Where I worked on different projects.</li>
+                            <li><span>Software QA ( January 2020 – March 2021) </span><br>I worked as a software QA in <span>Allied Mineral Pvt. Ltd</span></li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>B.tech</span><br>Techno India NJR Institute of technology,Udaipur, Rajasthan</li>
+                            <li><span>12th</span><br>Guru Nanak public Sr. sec school, Udaipur, Rajasthan</li>
+                            <li><span>10th</span><br>Guru Nanak public Sr. sec school, Udaipur, Rajasthan</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<!-- ------------------------Seriveces------------------------ -->
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services </h1>
+        <div class="services-list">
+            <div>
+                <!-- <i class="fa-solid fa-code"></i> -->
+                <h3>Manual & Functional Testing</h3>
+                <p>
+                    I provide expert-level manual testing services, covering functional, regression, smoke, and exploratory testing across web and mobile applications. I ensure robust quality assurance by designing detailed test cases, executing test cycles, and documenting defects with precision.
+                </p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <!-- <i class="fa-solid fa-crop"></i> -->
+                <h3>🧬 ETL Testing & Data Validation</h3>
+                <p>
+                    With over 3 years of experience, I offer specialized ETL testing services, validating data pipelines using Microsoft Fabric, SQL Notebooks, and Talend. I ensure data accuracy in Lakehouse and Data Warehouse systems, verifying millions of records and maintaining end-to-end data integrity.
+            
+                </p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <!-- <i class="fa-brands fa-app-store-ios"></i> -->
+                <h3>♿ Accessibility Testing (WCAG 2.0/2.1)</h3>
+                <p>
+                    I ensure digital inclusivity through accessibility testing using tools such as Axe, Wave, CCA, NVDA, and JAWS, with adherence to WCAG 2.0/2.1 standards. I validate UI/UX for assistive technology compatibility across platforms, enhancing usability for all users.
+                </p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <!-- <i class="fa-brands fa-app-store-ios"></i> -->
+                <h3>🗃️ Database Testing & Advanced SQL</h3>
+                <p>
+                    I specialize in database testing by executing complex SQL queries to validate backend logic and perform data comparisons. Proficient with Delta Tables, PostgreSQL, and OneLake, I support backend reliability and accuracy in high-volume data environments.
+                </p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <!-- <i class="fa-brands fa-app-store-ios"></i> -->
+                <h3>🔄 Agile QA Processes & Defect Lifecycle Management</h3>
+                <p>
+                    Experienced in Agile software development lifecycle (SDLC), including Scrum methodologies, sprint planning, daily stand-ups, and retrospectives. Proficient in JIRA, Confluence, and Asana for test management, defect tracking, and collaboration. I lead end-to-end defect lifecycle management—from logging, prioritization, triage, to verification—ensuring timely resolution and improved release quality. Adept at aligning QA deliverables with changing business requirements and ensuring comprehensive test coverage in fast-paced Agile environments.
+                </p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+            <div>
+                <!-- <i class="fa-brands fa-app-store-ios"></i> -->
+                <h3>🤖 Automation & API Testing (In Progress)</h3>
+                <p>
+                    Currently advancing skills in automation testing using Selenium WebDriver with Java, with a focus on building robust test suites using TestNG and project management via Maven. Proficient in Postman and Rest Assured for REST API testing, and exploring JMeter for performance testing. Experienced in version control with Git and code collaboration through GitHub. Actively working on integrating manual and automated approaches to develop hybrid testing frameworks that enhance test coverage, efficiency, and support CI/CD pipelines in Agile environments.
+                </p>
+                <!-- <a href="#">Learn More</a> -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------------Portfolio---------------------------- -->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work </h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/Heritage.webp" >
+                <div class="layer">
+                    <h3>ShareKnowledge</h3>
+                    <p>Tools : Microsoft fabric,notebook,SQL,Delta table,Data validation, Report creation</p><br>
+                    <p>
+                    Designed ETL test cases for data migration between Marketo and Atlassian using Microsoft Fabric Data
+                        Pipelines, SQL Notebooks, and Lakehouse validation techniques.
+                    Achieved 98% data accuracy in automated data integrity checks using Delta Lake tables and OneLake
+storage.
+                    </p>
+                    <a href="https://www.heritage.org/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/climb.png" >
+                <div class="layer">
+                    <h3>CarZone</h3>
+                    <p>Tools : Python, Django, HTML, CSS, JavaScript, Bootstrap</p><br>
+                    <p>
+                        CarZone basically a Vehicle resale website where users can easily access all vehicle information along with images in one place instead of looking for second-hand vehicles in the market.
+                    </p>
+                    <a href="https://github.com/VishalDatodiya/CarZone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+            <div class="work">
+                <img src="images/invisibleAgent.png" >
+                <div class="layer">
+                    <h3>Snake Game</h3>
+                    <p>Tools : Python- Tkinter</p><br>
+                    <p>
+                        The Python Snake Game project is a classic arcade-style game implemented using the Python programming language. The game simulates the popular "Snake" game, where players control a snake that moves around the screen, eating food and growing longer while avoiding collision with the walls or its own tail.
+                    </p>
+                    <a href="https://github.com/VishalDatodiya/Snake-Game" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="images/Indeed.webp" >
+                <div class="layer">
+                    <h3>CarZone</h3>
+                    <p>Tools : Python, Django, HTML, CSS, JavaScript, Bootstrap</p><br>
+                    <p>
+                        CarZone basically a Vehicle resale website where users can easily access all vehicle information along with images in one place instead of looking for second-hand vehicles in the market.
+                    </p>
+                    <a href="https://github.com/VishalDatodiya/CarZone" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- <a href="#" class="btn">See More</a> -->
+    </div>
+</div>
+<!-- ----------------------Contact---------------------- -->
+
+
+<div id="contact">
+    <div class="container">
+        
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me </h1>
+                <p><a href="mailto:dikshasingh.365@gmail.com"><i class="fa-solid fa-paper-plane"></i>dikshasingh.365@gmail.com</a></p>
+                <p><i class="fa-solid fa-phone"></i>+91 838-684-8612</p>
+                <p><a href="https://www.hackerrank.com/profile/dikshasngh1214" target="_blank"><i class="fa-solid fa-code"></i>Hanker Rank</a></p>
+                <div class="social-icon">
+                    <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
+                    <!-- <a href=""><i class="fa-brands fa-instagram"></i></a> -->
+                    
+                    <a href="https://www.linkedin.com/in/diksha-singh-2a8517164" target="
+                    "><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Dikshasingh365" target="_blank"><i class="fa-brands fa-github"></i></a>
+                    <a href="mailto:dikshasingh.365@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+                <a href="DikshaS_CV (1).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email">
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i> Diksha</p>
+    </div>
+
+</div>
+
+
+
+
+<!-- ------------------------------JavaScript code for about------------------ -->
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+<!-- side menu -->
+
+    <script>
+    
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxUNPGHpxYnN-xdh5KGn9iOEma78IK71TnZ9X6LSi-siuxVGlvdbxLHHUjTSuZUlIJaOw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Succussfully!"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+</body>
+</html>
