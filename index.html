@@ -256,12 +256,17 @@ Ensured 99.9% uptime and end-user accessibility compliance.
                 <a href="DikshaS_CV (1).pdf" download class="btn btn2">Download CV</a>
             </div>
             <div class="contact-right">
-                <form name="submit-to-google-sheet" method="POST">
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="Email" placeholder="Your Email">
-                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <form action="https://formsubmit.co/dikshasingh.365@gmail.com" method="POST">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_subject" value="New message from Portfolio">
+                    
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
+                
                 <span id="msg"></span>
             </div>
         </div>
